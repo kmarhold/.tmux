@@ -106,7 +106,7 @@ tmux_conf_theme_window_status_format='#I #W'
 # window current status style
 #   - built-in variables are:
 #     - #{circled_window_index}
-tmux_conf_theme_window_status_current_fg='white'      # black
+tmux_conf_theme_window_status_current_fg='black'      # black
 tmux_conf_theme_window_status_current_bg='brightblue'      # light blue
 tmux_conf_theme_window_status_current_attr='bold'
 tmux_conf_theme_window_status_current_format='#I #W'
