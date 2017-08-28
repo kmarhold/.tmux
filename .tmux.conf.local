@@ -7,6 +7,10 @@
 
 set -g default-shell /bin/zsh
 
+# plugins
+
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+
 # -- navigation ----------------------------------------------------------------
 
 # if you're running tmux within iTerm2
