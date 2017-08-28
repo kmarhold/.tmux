@@ -1,0 +1,8 @@
+pane	0	1	:~/.tmux	1	:*	1	:/home/krstn/.tmux	1	zsh	:
+pane	0	1	:~/.tmux	1	:*	2	:/home/krstn	0	zsh	:
+pane	0	2	:zenbot	0	:#-	1	:/opt/zenbot	1	node	:node /usr/bin/zenbot trade --conf=conf.krstn-btc.js
+pane	0	3	:~	0	:#	1	:/home/krstn	1	zsh	:
+window	0	1	1	:*	2511,272x58,0,0[272x41,0,0,2,272x16,0,42,3]
+window	0	2	0	:#-	cf5e,272x58,0,0,1
+window	0	3	0	:#	67e5,272x58,0,0,16
+state	0	
