@@ -269,4 +269,4 @@ set -g mouse on
 # move status line to top
 #set -g status-position top
 
-run-shell ~/.tmux/tmux-resurrect/resurrect.tmux
+if '[ -f  ~/.tmux/tmux-resurrect/resurrect.tmux ]' 'run-shell ~/.tmux/tmux-resurrect/resurrect.tmux'
