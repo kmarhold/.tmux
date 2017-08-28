@@ -7,10 +7,6 @@
 
 set -g default-shell /bin/zsh
 
-# plugins
-
-set -g @plugin 'tmux-plugins/tmux-resurrect'
-
 # -- navigation ----------------------------------------------------------------
 
 # if you're running tmux within iTerm2
@@ -272,3 +268,5 @@ set -g mouse on
 
 # move status line to top
 #set -g status-position top
+
+run-shell ~/.tmux/tmux-resurrect/resurrect.tmux
