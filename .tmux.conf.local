@@ -1,11 +1,6 @@
-# https://github.com/gpakosz/.tmux
-# (‑●‑●)> dual licensed under the WTFPL v2 license and the MIT license,
-#         without any warranty.
+# https://github.com/gpakosz/.tmux # (‑●‑●)> dual licensed under the WTFPL v2 license and the MIT license, 
+#         without any warranty.  
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
-
-# set default shell
-
-set -g default-shell /bin/zsh
 
 # -- navigation ----------------------------------------------------------------
 
@@ -270,3 +265,12 @@ set -g mouse on
 #set -g status-position top
 
 if '[ -f  ~/.tmux/tmux-resurrect/resurrect.tmux ]' 'run-shell ~/.tmux/tmux-resurrect/resurrect.tmux'
+
+# set default shell
+
+set -g default-shell /bin/zsh
+
+# keybindings
+
+set-window-option -g mode-keys vi
+bind Escape copy-mode
