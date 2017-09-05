@@ -272,4 +272,5 @@ set -g default-shell /bin/zsh
 
 # keybindings
 
-bind Escape copy-mode
+bind ü copy-mode
+bind ö command-prompt
