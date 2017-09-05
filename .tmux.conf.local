@@ -272,5 +272,4 @@ set -g default-shell /bin/zsh
 
 # keybindings
 
-bind ü copy-mode
 bind ö command-prompt
